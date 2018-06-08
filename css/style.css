@@ -12,21 +12,72 @@
 	width: 1170px;
 	margin: 0 auto;
 }
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.white-colo{
+	color: #fff;
+}
+.blue-color{
+	color: #3D58A6
+}
+.clear{
+	clear: both;
+}
 /* base classes */
 
 /* header */
 .header{
-	padding: 30px;
+	padding: 20px;
+	/*background-color: red;*/
+}
+.right-block{
+	float: right;
+	/*background-color: yellow*/
+}
+.social-a{
+	padding: 0 15px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #3D58A6;
+
+}
+.social-li:last-child .social-a{
+	padding-right: 0;
+	border: 0;
+}
+.social-icon{
+	padding: 0 30px;
+}
+.social-icon:first-child{
+	padding-left: 0;
+	/*background-color: blue*/
+}
+
+.social-icon img{
+	height: 30px;
 }
 .logo{
 	width: 100px;
+	float: left;
+	/*background-color: blue;*/
 }
 .nav{
 	margin-left: 50px;
+	margin-right: 150px;
 }
 .navigaiton-a{
 	padding: 0 30px;
 	color: #3D58A6;
+	font-family: "RobotoRegular";
+	font-size: 20px;
+
+}
+.social-a img{
+	height: 25px;
 }
 .navigaiton-a:hover{
 	color: #EE4036;
@@ -34,13 +85,78 @@
 /* header */
 /* banner */
 .banner{
-	padding: 80px 0;
-
+	padding: 30px 0;
+	background-color: #E6E6E6
 }
 .banner img{
 	width: 100%;
 }
 /* banner */
+
+/* video */
+.video-fluid{
+	background-color: #363E97;
+	padding-bottom: 90px;
+}
+.article-title-elem{
+	font-size: 24px;
+	font-family: "RobotoRegular";
+	text-transform: uppercase;
+	padding: 30px 0;
+}
+.article-title-elem a{
+	text-transform: lowercase;
+}
+.video{
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+	text-align: center;
+}
+/* video */
+
+/* artixle-box */
+.articles{
+	padding-bottom: 90px;
+	background-color: #BDCCD4;
+}
+.article-box:nth-child(1),
+.article-box:nth-child(2),
+.article-box:nth-child(3),
+.article-box:nth-child(4)
+{
+	margin-top: 0;
+}
+.article-box{
+	width: 270px;
+	height: 270px;
+	float: left;
+	margin: 30px 15px auto 15px;  
+}
+.article-box img{
+	display: block;
+}
+.article-box:first-child{
+	margin-left: 0;
+}
+.article-box:nth-child(4n+1){
+	margin-left: 0;
+}
+.article-box:nth-child(4n){
+	margin-right: 0;
+}
+.article-title{
+	height: 60px;
+	background-color: #E6E6E6;
+	/*text-align: center;*/
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #333333;
+	padding-left: 17px;
+	line-height: 60px;
+}
+/* artixle-box */
+
 /* featured */
 .fatured{
 	padding-top: 60px;
@@ -82,17 +198,6 @@
 .footer{
 	padding: 70px 0 40px 0;
 
-}
-.social-icon{
-	padding: 0 30px;
-}
-.social-icon:first-child{
-	padding-left: 0;
-	/*background-color: blue*/
-}
-
-.social-icon img{
-	height: 30px;
 }
 /* footer */
 
