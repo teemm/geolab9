@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/Responsive.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Exam 3</title>
 </head>
@@ -32,6 +35,7 @@
 						</li>
 					</ul>
 				</nav>
+
 				<ul class="social-ul">
 					<li class="social-li inline-block vertical-middle">
 						<a class="social-a inline-block" href="#">
@@ -59,15 +63,60 @@
 						</a>
 					</li>
 				</ul>
-				<div class="burger">
+
+				<div class="burger" id="burger">
 					<span class="row"></span>
 					<span class="row"></span>
 					<span class="row"></span>
 				</div>
+				
 			</div>
 
 			<!-- <div class="clear"></div> -->
 		</div>
+		<div class="mobile-navigation" id="menu">
+					<nav class="mobile-nav">
+						<ul class="mobiel-nav-ul">
+							<li class="mobile-nav-li">
+								<a class="mobile-nav-a" href="#">მთავარი</a>
+							</li>
+							<li class="mobile-nav-li">
+								<a class="mobile-nav-a" href="#">მთავარი</a>
+							</li>
+							<li class="mobile-nav-li">
+								<a class="mobile-nav-a" href="#">მთავარი</a>
+							</li>
+							<li class="mobile-nav-li">
+								<a class="mobile-nav-a" href="#">მთავარი</a>
+							</li>
+							<li class="mobile-nav-li icon">
+								<a class="mobile-nav-a" href="#">
+									<img src="img/f.svg">
+								</a>
+							</li>
+							<li class="mobile-nav-li icon">
+								<a class="mobile-nav-a" href="#">
+									<img src="img/f.svg">
+								</a>
+							</li>
+							<li class="mobile-nav-li icon">
+								<a class="mobile-nav-a" href="#">
+									<img src="img/f.svg">
+								</a>
+							</li>
+							<li class="mobile-nav-li icon">
+								<a class="mobile-nav-a" href="#">
+									<img src="img/f.svg">
+								</a>
+							</li>
+							<li class="mobile-nav-li icon">
+								<a class="mobile-nav-a" href="#">
+									<img src="img/f.svg">
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 	</header>
 
 	<section class="banner">
@@ -80,6 +129,33 @@
 				<div class="text">#ffffff</div>
 			</div>
 			<img class="white-logo" src="img/logo.svg">
+		</div>
+		<!-- <img src="http://wac.2f9ad.chicdn.net/802F9AD/u/joyent.wme/public/wme/assets/ec050984-7b81-11e6-96e0-8905cd656caf.jpg"> -->
+	</section>
+
+
+	<section class="banner">
+		<div class="container relative">
+			<div class="slick-slider">
+				<div class="slick">
+					 <img class="banner-img" src="img/banner.png">
+				</div>
+				<div class="slick">
+					 <img class="banner-img" src="img/banner.png">
+				</div>
+				<div class="slick">
+					 <img class="banner-img" src="img/banner.png">
+				</div>
+				<div class="slick">
+					 <img class="banner-img" src="img/banner.png">
+				</div>
+
+			
+			 <!-- <img class="banner-img" src="img/coding.jpg">
+			 <img class="banner-img" src="img/banner.png">
+			 <img class="banner-img" src="img/coding.jpg">
+			 <img class="banner-img" src="img/banner.png"> -->
+			</div>
 		</div>
 		<!-- <img src="http://wac.2f9ad.chicdn.net/802F9AD/u/joyent.wme/public/wme/assets/ec050984-7b81-11e6-96e0-8905cd656caf.jpg"> -->
 	</section>
@@ -173,11 +249,75 @@
 			</article>
 		</div>
 	</section>
-<footer class="footer">
+
+	<section class="table-seciton">
+		<div class="container">
+			<table class="table">
+				<tr>
+					<th>name</th>
+					<th>firstname</th>
+					<th>age</th>
+				</tr>
+
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+				<tr>
+					<td>temo</td>
+					<td>temo</td>
+					<td>23</td>
+				</tr>
+			</table>
+		</div>
+	</section>	
+
+	<footer class="footer">
 		<div class="container footer-wrapper">
 			<div class="text">©2017 hyper text murkup language</div>
 			<div class="text">created by: ME</div>
 		</div>
 	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slick-slider').slick({
+		    	dots: true,
+			  	infinite: true,
+			  	speed: 500,
+			  	fade: false,
+  				cssEase: 'linear'
+			});
+		})
+	</script>
 </body>
+
 </html>

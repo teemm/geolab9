@@ -58,6 +58,9 @@
 	}
 }
 @media (max-width: 480px){
+	.mobile-nav-li.icon{
+		display: block;
+	}
 	.social-li:not(.search){
 		display: none;
 	}
