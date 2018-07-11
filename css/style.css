@@ -471,3 +471,62 @@ body{
 }
 /* table */
 
+
+/* saearch block */
+body.hidden{
+	overflow: hidden;
+}
+.search-block{
+	position: fixed;
+	height: calc(100% - 40px);
+	width: calc(100% - 40px);
+	background-color: rgba(238, 64, 54, .9);
+	top: 20px;
+	left: 20px;
+	z-index: 20;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .3s linear;
+}
+.search-block.active{
+	visibility: visible;
+	opacity: 1;
+}
+.search-block .search-box{
+	display: flex;
+	flex-direction: column;
+}
+.search-block .search-box{
+	padding: 0 100px;
+	font-family: "RobotoRegular";
+	font-size: 24px;
+	color: #363E97;
+}
+.search-block .search-box label{
+	margin-bottom: 15px;
+}
+.search-block .search-box input::-webkit-input-placeholder{
+	color: #fff;
+}
+.search-block .search-box input{
+	background-color: transparent;
+	font-size: 24px;
+	color: #363E97;
+}
+.search-block .close-section{
+	margin: 45px 45px 65px auto;
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+}
+.search-block .close-section .close{
+	width: 120px;
+	height: 120px;
+	/*background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/6/63/IMG_%28business%29.svg/1200px-IMG_%28business%29.svg.png');*/
+	background-image: url('../img/search-close.svg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* saearch block */
+
